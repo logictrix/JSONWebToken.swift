@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'JSONWebToken'
-  spec.version = '2.2.0'
+  spec.version = '2.2.0.1'
   spec.summary = 'Swift library for JSON Web Tokens (JWT).'
   spec.homepage = 'https://github.com/kylef/JSONWebToken.swift'
   spec.license = { :type => 'BSD', :file => 'LICENSE' }
@@ -24,6 +24,4 @@ Pod::Spec.new do |spec|
       'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/JSONWebToken/',
     }
   end
-
-  spec.preserve_paths = 'CommonCrypto/{shim.h,module.modulemap}'
 end
